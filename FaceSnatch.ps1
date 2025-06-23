@@ -25,6 +25,8 @@ if (Test-Path $filePath -PathType Leaf) {
         Write-Host "`nFound $($uniqueIDs.Count) unique Facebook ID(s):`n" -ForegroundColor Green
         foreach ($id in $uniqueIDs) {
             Write-Host "ID: $id" -ForegroundColor Yellow
+            Write-Host ""
+	        Write-Host "Link: https://facebook.com/profile.php?id=$id" -ForegroundColor Yellow
         }
 
         $saveChoice = Read-Host -Prompt "`nDo you want to save these IDs to a file? (y/n)"
