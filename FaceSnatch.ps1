@@ -1,7 +1,7 @@
 Clear-Host
 Write-Host "=====================================================" -ForegroundColor Cyan
 Write-Host "FaceSnatch FB ID Extractor - PowerShell Edition" -ForegroundColor Green
-Write-Host "Version 1.0 - © Yousef Elhalafawy. All rights reserved." -ForegroundColor Gray
+Write-Host "© Yousef Elhalafawy. All rights reserved." -ForegroundColor Gray
 Write-Host "=====================================================" -ForegroundColor Cyan
 
 Write-Host "`nINSTRUCTIONS:"
